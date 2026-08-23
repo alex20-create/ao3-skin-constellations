@@ -1,0 +1,1008 @@
+#header {
+  background-image: url("https://paintedpaper.com/cdn/shop/files/constellationpainted-paper-779878.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-color: #151726;
+}
+
+#header .heading {
+  height: 15em;
+}
+
+#header .primary {
+  background: #0d0e1f;
+  box-shadow: 0px 0px 15px #f3bc70;
+}
+
+#header .logo,
+#header .heading sup {
+  visibility: hidden;
+}
+
+#header .heading a {
+  color: #f3bc70;
+  text-shadow: 0px 0px 15px #000000;
+}
+
+.event .userstuff {
+  background: #424c5e;
+  border: 1px solid #f3bc70;
+}
+
+#outer.wrapper {
+  background: #0d0e1f;
+  color: #f3bc70;
+}
+
+#main a {
+  color: #9db4d1;
+}
+
+#main a:hover {
+  color: #ffffff !important;
+}
+
+#greeting a.dropdown-toggle,
+#header .actions a {
+  color: #f3bc70 !important;
+  text-shadow: 0px 0px 3px #151726;
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+#greeting a.dropdown-toggle:hover,
+#header .actions a:hover {
+  background: transparent !important;
+  color: #ffffff !important;
+  box-shadow: none !important;
+}
+
+#header .navigation a:hover,
+#header .dropdown a:hover,
+#header ul.menu a:hover {
+  box-shadow: none !important;
+}
+
+#greeting .menu,
+#header .dropdown .menu,
+#header .dropdown:hover a {
+  background: #0d0e1f;
+  box-shadow: none;
+}
+
+span.submit.actions input.button {
+  display: none;
+}
+
+#greeting img.icon {
+  display: none;
+}
+
+#header #search .text,
+.search [role="tooltip"] {
+  background: #0d0e1f;
+  box-shadow: none;
+  color: #f3bc70 !important;
+  border: 1px solid #0d0e1f;
+}
+
+form.search input[type=text],
+.autocomplete div.dropdown ul {
+  background: #0d0e1f !important;
+  border: none;
+  box-shadow: none;
+  color: #f3bc70;
+  display: block;
+}
+
+#header #search .text {
+  width: 7em;
+}
+
+.notice,
+.comment_notice,
+.kudos_notice,
+ul.notes,
+.caution,
+.error,
+.comment_error,
+.kudos_error,
+.alert.flash {
+  background: #f3bc70;
+  box-shadow: none !important;
+  color: #0d0e1f;
+  border: none;
+}
+
+.notice a,
+.comment_notice a,
+.kudos_notice a,
+ul.notes a,
+.caution a,
+.error a,
+.comment_error a,
+.kudos_error a,
+.alert.flash a {
+  color: #505b69;
+  font-weight: bold;
+}
+
+.splash .module h3 {
+  color: #f3bc70;
+  border-bottom: 2px solid #f3bc70;
+}
+
+.splash .favorite li:nth-of-type(2n+1) a {
+  background: #f3bc70;
+  box-shadow: none;
+  color: #0d0e1f;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+
+.splash .favorite li:nth-of-type(2n+2) a {
+  color: #f3bc70;
+  font-weight: bold;
+  font-variant: small-caps;
+  font-size: 110%;
+}
+
+.splash .favorite li:nth-of-type(2n+1) a:hover,
+.splash .favorite li:nth-of-type(2n+2) a:hover {
+  color: #f3bc70;
+  font-weight: bold;
+  font-variant: small-caps;
+  background: #424c5e;
+}
+
+#footer {
+  background: #424c5e;
+  color: #f3bc70;
+  border-top: 3px solid #f3bc70;
+  box-shadow: none;
+}
+
+#footer a,
+#footer .heading {
+  color: #f3bc70;
+}
+
+.actions a,
+.actions a:link,
+.actions a:visited,
+.action:link,
+.action:visited,
+.actions li a,
+.actions li label,
+ul.navigation.actions li a,
+.actions input,
+.actions input[type="submit"],
+.actions input[type="button"],
+input[type="submit"],
+input[type="button"],
+input[type="reset"],
+button,
+a.button {
+  background: #ffffff !important;
+  color: #000000 !important;
+  border: 1px solid #cccccc !important;
+  box-shadow: none !important;
+  border-radius: 5px;
+  font-weight: bold;
+  margin: 0 !important;
+}
+
+.actions a:hover,
+.actions a:focus,
+.action:hover,
+.action:focus,
+.actions li a:hover,
+ul.navigation.actions li a:hover,
+.actions input:hover,
+.actions input:focus,
+input[type="submit"]:hover,
+input[type="submit"]:focus,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+button:hover,
+button:focus,
+a.button:hover {
+  background: #f3bc70 !important;
+  color: #0d0e1f !important;
+  border: 1px solid #f3bc70 !important;
+  box-shadow: none !important;
+}
+
+#dashboard .actions a,
+#dashboard .action,
+#dashboard ul.navigation.actions li a,
+#dashboard .actions input,
+#dashboard input[type="submit"],
+#dashboard button {
+  background: transparent !important;
+  color: #f3bc70 !important;
+  border: 1px solid #f3bc70 !important;
+  box-shadow: none !important;
+}
+
+#dashboard .actions a:hover,
+#dashboard .action:hover,
+#dashboard ul.navigation.actions li a:hover,
+#dashboard .actions input:hover,
+#dashboard input[type="submit"]:hover,
+#dashboard button:hover {
+  background: #0d0e1f !important;
+  color: #f3bc70 !important;
+  box-shadow: none !important;
+}
+
+input:disabled,
+button:disabled,
+input[type="submit"]:disabled,
+input[type="button"]:disabled,
+.actions input:disabled,
+.actions li input:disabled {
+  background: #6b6f76 !important;
+  color: #b0b0b0 !important;
+  border: 1px solid #8a8d93 !important;
+  box-shadow: none !important;
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+.current,
+#dashboard .current,
+.pagination .current,
+.pagination li.current,
+.pagination li.current a,
+ol.pagination li span.current,
+ol.pagination a.current {
+  background: #f3bc70 !important;
+  color: #0d0e1f !important;
+  box-shadow: none !important;
+  border: 1px solid #f3bc70 !important;
+  border-radius: 5px;
+  font-weight: bold;
+  margin: 0 !important;
+}
+
+.pagination a:not(.current) {
+  background: #ffffff !important;
+  color: #000000 !important;
+  border: 1px solid #cccccc !important;
+  box-shadow: none !important;
+  margin: 0 !important;
+}
+
+.pagination li {
+  margin: 0 !important;
+}
+
+.pagination,
+.pagination li,
+.pagination a,
+.pagination span,
+ul.navigation li,
+ul.navigation.actions li,
+#dashboard ul.navigation.actions li,
+.navigation li {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+#dashboard.own {
+  border-top: 5px solid #f3bc70;
+  border-bottom: 5px solid #f3bc70;
+  box-shadow: none;
+}
+
+#dashboard a:hover {
+  background: #0d0e1f;
+  box-shadow: none;
+}
+
+#dashboard a {
+  color: #f3bc70;
+}
+
+dl.meta {
+  border: 1px solid #f3bc70;
+  box-shadow: none;
+}
+
+.listbox .index {
+  background: #0d0e1f;
+}
+
+.listbox,
+fieldset fieldset.listbox {
+  background: #f3bc70;
+  box-shadow: none;
+}
+
+form dl,
+fieldset,
+fieldset fieldset,
+fieldset fieldset fieldset,
+fieldset fieldset dl dl,
+dd.hideme,
+form blockquote.userstuff,
+input,
+select,
+select:focus,
+textarea,
+.own {
+  background: #0d0e1f !important;
+  color: #f3bc70 !important;
+  border: 1px solid #f3bc70;
+  box-shadow: none !important;
+}
+
+span.symbol.question {
+  background: #0d0e1f !important;
+  color: #f3bc70 !important;
+  border: 1px solid #f3bc70;
+  box-shadow: none !important;
+}
+
+.autocomplete li.added,
+.post .meta dd ul li.added,
+label,
+label.required {
+  color: #f3bc70;
+}
+
+#filters label,
+.filters label,
+.filters .listbox li,
+#filters .listbox li,
+.filters fieldset li,
+#filters fieldset li,
+fieldset.filters li,
+.dropdown li,
+#filters .actions li label,
+.filters .actions li label,
+#filters .actions li a,
+.filters .actions li a,
+#filters ul.navigation.actions li a,
+.filters ul.navigation.actions li a,
+#filters .tag,
+.filters .tag,
+#filters a.tag,
+.filters a.tag,
+#filters li,
+.filters li,
+#filters input[type="checkbox"],
+.filters input[type="checkbox"],
+#filters input[type="radio"],
+.filters input[type="radio"] {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+span.delete {
+  background: #f3bc70;
+  box-shadow: none;
+}
+
+span.delete a {
+  color: #0d0e1f !important;
+  font-weight: bold;
+}
+
+.ui-sortable li,
+.dynamic form,
+div.dynamic {
+  background: #0d0e1f;
+  border: 1px solid #f3bc70;
+}
+
+.dropdown {
+  background: #0d0e1f;
+}
+
+form.verbose legend,
+.verbose form legend {
+  background: #f3bc70;
+  color: #0d0e1f;
+  box-shadow: none;
+}
+
+li.blurb {
+  border: 1px solid #f3bc70;
+  box-shadow: none;
+}
+
+.draft {
+  background: #0d0e1f;
+  color: #f3bc70;
+  border: 2px dashed #f3bc70;
+  box-shadow: none;
+}
+
+.draft .wrapper {
+  background: #0d0e1f;
+  border: 1px solid #f3bc70;
+}
+
+#header h2 {
+  background: #f3bc70 !important;
+  color: #0d0e1f;
+  box-shadow: none;
+}
+
+#stat_chart svg rect:first-of-type {
+  opacity: 60%;
+}
+
+#stat_chart g[clip-path^=url] > g:nth-of-type(2) rect,
+#stat_chart svg g:nth-of-type(2) > g rect:last-of-type,
+#stat_chart g[clip-path^=url] > g:nth-of-type(2) rect:first-of-type {
+  filter: hue-rotate(140deg);
+  opacity: 80% !important;
+}
+
+.statistics .index li:nth-of-type(2n) {
+  background: #0d0e1f;
+  border: 1px solid #f3bc70;
+}
+
+.reading h4.viewed,
+dl.index dd,
+table,
+th,
+dt.child {
+  background: #0d0e1f;
+}
+
+#modal,
+span.replied {
+  background: #0d0e1f;
+  color: #f3bc70;
+  border: 2px solid #f3bc70;
+  box-shadow: none;
+}
+
+h4.heading.byline {
+  background: #f3bc70;
+  color: #0d0e1f;
+}
+
+li.comment {
+  border: 1px solid #f3bc70;
+}
+
+.comment div.icon {
+  border-bottom: 5px solid #f3bc70;
+  box-shadow: none;
+}
+
+.thread .even {
+  background: #424c5e;
+}
+
+.unread {
+  background: #0d0e1f;
+  border: 5px dashed #f3bc70 !important;
+}
+
+span.unread {
+  background: #f3bc70;
+  color: #0d0e1f;
+}
+
+span.indicator::before {
+  box-shadow: none;
+}
+
+.warnings .tag,
+.work .warning a.tag,
+dd.warning.tags a {
+  background: none;
+  color: #e2574c !important;
+  font-weight: bold;
+  text-shadow: none;
+}
+
+.warnings .tag[href*="No%20Archive%20Warnings%20Apply"],
+.work .warning a.tag[href*="No%20Archive%20Warnings%20Apply"],
+dd.warning.tags a[href*="No%20Archive%20Warnings%20Apply"],
+.warnings .tag[href*="Creator%20Chose%20Not%20To%20Use%20Archive%20Warnings"],
+.work .warning a.tag[href*="Creator%20Chose%20Not%20To%20Use%20Archive%20Warnings"],
+dd.warning.tags a[href*="Creator%20Chose%20Not%20To%20Use%20Archive%20Warnings"],
+.warnings .tag[href*="Choose%20Not%20To%20Use%20Archive%20Warnings"],
+.work .warning a.tag[href*="Choose%20Not%20To%20Use%20Archive%20Warnings"],
+dd.warning.tags a[href*="Choose%20Not%20To%20Use%20Archive%20Warnings"] {
+  color: #a8d5a0 !important;
+  text-shadow: none;
+}
+
+/* Relaciones no románticas (tags con "&" o "and") - mismo estilo que Characters antes de volverse naranja */
+.relationships .tag[href*="%26"],
+.work .relationships a.tag[href*="%26"],
+dd.relationship.tags a[href*="%26"],
+.relationships .tag[href*="&"],
+.work .relationships a.tag[href*="&"],
+dd.relationship.tags a[href*="&"],
+.relationships .tag[href*="*a*"],
+.work .relationships a.tag[href*="*a*"],
+dd.relationship.tags a[href*="*a*"],
+.relationships .tag[href*="%20and%20"],
+.work .relationships a.tag[href*="%20and%20"],
+dd.relationship.tags a[href*="%20and%20"] {
+  background: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  color: #e8944f !important;
+  text-shadow: none !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.relationships .tag,
+.work .relationships a.tag,
+dd.relationship.tags a {
+  border: 1px solid #f3bc70;
+  border-radius: 0;
+  background: rgba(243, 188, 112, 0.6);
+  padding-left: 2px;
+  padding-right: 2px;
+  box-shadow: none;
+  color: #ffffff !important;
+  text-shadow: none;
+}
+
+/* Relaciones ROMÁNTICAS: al hacer hover mantienen la caja dorada, solo el texto cambia a blanco */
+.relationships .tag:hover,
+.relationships .tag:focus,
+.work .relationships a.tag:hover,
+.work .relationships a.tag:focus,
+dd.relationship.tags a:hover,
+dd.relationship.tags a:focus,
+.relationships a:hover,
+.relationships a:focus,
+.work .relationships a:hover,
+.work .relationships a:focus {
+  background: rgba(243, 188, 112, 0.6) !important;
+  border: 1px solid #f3bc70 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  outline: none !important;
+  color: #ffffff !important;
+  text-shadow: none !important;
+}
+
+/* Relaciones NO románticas ("&"/"and"): sin caja también en hover, solo texto blanco */
+.relationships .tag[href*="%26"]:hover,
+.relationships .tag[href*="%26"]:focus,
+.relationships .tag[href*="&"]:hover,
+.relationships .tag[href*="&"]:focus,
+.relationships .tag[href*="*a*"]:hover,
+.relationships .tag[href*="*a*"]:focus,
+.relationships .tag[href*="%20and%20"]:hover,
+.relationships .tag[href*="%20and%20"]:focus,
+.work .relationships a.tag[href*="%26"]:hover,
+.work .relationships a.tag[href*="%26"]:focus,
+.work .relationships a.tag[href*="&"]:hover,
+.work .relationships a.tag[href*="&"]:focus,
+.work .relationships a.tag[href*="*a*"]:hover,
+.work .relationships a.tag[href*="*a*"]:focus,
+.work .relationships a.tag[href*="%20and%20"]:hover,
+.work .relationships a.tag[href*="%20and%20"]:focus,
+dd.relationship.tags a[href*="%26"]:hover,
+dd.relationship.tags a[href*="%26"]:focus,
+dd.relationship.tags a[href*="&"]:hover,
+dd.relationship.tags a[href*="&"]:focus,
+dd.relationship.tags a[href*="*a*"]:hover,
+dd.relationship.tags a[href*="*a*"]:focus,
+dd.relationship.tags a[href*="%20and%20"]:hover,
+dd.relationship.tags a[href*="%20and%20"]:focus {
+  background: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+  color: #ffffff !important;
+  text-shadow: none !important;
+}
+
+/* Hover del resto de categorías (sin caja) */
+.warnings .tag:hover,
+.warnings .tag:focus,
+.work .warning a.tag:hover,
+.work .warning a.tag:focus,
+dd.warning.tags a:hover,
+dd.warning.tags a:focus,
+.fandoms .tag:hover,
+.fandoms .tag:focus,
+.work .fandoms a.tag:hover,
+.work .fandoms a.tag:focus,
+dd.fandom.tags a:hover,
+dd.fandom.tags a:focus,
+.freeforms .tag:hover,
+.freeforms .tag:focus,
+.work .freeforms a.tag:hover,
+.work .freeforms a.tag:focus,
+dd.freeform.tags a:hover,
+dd.freeform.tags a:focus,
+.category .tag:hover,
+.category .tag:focus,
+.work .category a.tag:hover,
+.work .category a.tag:focus,
+dd.category.tags a:hover,
+dd.category.tags a:focus {
+  background: none !important;
+  border: none !important;
+  border-color: transparent !important;
+  color: #ffffff !important;
+  box-shadow: none !important;
+  outline: none !important;
+  text-shadow: none !important;
+}
+
+/* Hover de Characters: cambia a blanco para contrastar con el naranja base */
+.characters .tag:hover,
+.characters .tag:focus,
+.work .characters a.tag:hover,
+.work .characters a.tag:focus,
+dd.characters.tags a:hover,
+dd.characters.tags a:focus,
+dd.character.tags a:hover,
+dd.character.tags a:focus {
+  background: none !important;
+  border: none !important;
+  color: #ffffff !important;
+  box-shadow: none !important;
+  outline: none !important;
+  text-shadow: none !important;
+}
+
+.characters .tag,
+.work .characters a.tag,
+dd.characters.tags a,
+dd.character.tags a {
+  background: none;
+  color: #c9a0dc !important;
+  font-weight: bold;
+  text-shadow: none;
+}
+
+.fandoms .tag,
+.work .fandoms a.tag,
+dd.fandom.tags a {
+  background: none;
+  color: #f3bc70 !important;
+  font-weight: bold;
+  text-shadow: none;
+}
+
+.freeforms .tag,
+.work .freeforms a.tag,
+dd.freeform.tags a {
+  background: none;
+  color: #8a94d1 !important;
+  font-weight: bold;
+  text-shadow: none;
+}
+
+.category .tag,
+.work .category a.tag,
+dd.category.tags a {
+  background: none;
+  color: #5cb8ad !important;
+  font-weight: bold;
+  text-shadow: none;
+}
+
+/* Red de seguridad: elimina cualquier caja/sombra/outline residual en hover de tags,
+   tanto en listados de búsqueda (blurbs) como dentro de la página del fic */
+.tags li:hover,
+.tags li a:hover,
+.tags dd:hover,
+.tags dd a:hover,
+ul.tags li:hover,
+ul.tags li a:hover,
+dl.tags dd:hover,
+dl.tags dd a:hover,
+.tag:hover,
+.tag:focus,
+a.tag:hover,
+a.tag:focus {
+  background: none !important;
+  border: none !important;
+  color: #ffffff !important;
+  box-shadow: none !important;
+  outline: none !important;
+  text-shadow: none !important;
+}
+
+/* Texto de los fics justificado */
+#workskin .userstuff p,
+.work .userstuff p {
+  text-align: justify;
+}
+
+.filters .expander,
+button.expander {
+  background-image: url("https://64.media.tumblr.com/3c89981f933f9f57157d6dcec6fd85a7/94c6737c6db9ad60-e5/s1280x1920/f7557e617a5439c506721bd326580a0cb4c1f8d8.png") !important;
+  background-repeat: no-repeat !important;
+  background-position: left center !important;
+  background-color: transparent !important;
+  color: #f3bc70 !important;
+  font-weight: bold;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.filters .expanded .expander,
+button.expander[aria-expanded="true"] {
+  background-image: url("https://64.media.tumblr.com/dab095a2fd9387bc1e0c57747ba6b13f/94c6737c6db9ad60-ad/s1280x1920/c1a4e14e0565cdcac5d3e20bebac3ab440f2d607.png") !important;
+  background-repeat: no-repeat !important;
+  background-position: left center !important;
+  background-color: transparent !important;
+}
+
+.filters .expander:hover,
+.filters .expander:focus,
+button.expander:hover,
+button.expander:focus {
+  background-color: transparent !important;
+  color: #ffffff !important;
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+body {
+  background: #0d0e1f !important;
+  color: #f3bc70;
+}
+
+.blurb h4.heading a,
+.blurb h4.heading a:link,
+.blurb h4.heading a:visited,
+#workskin h2.title.heading,
+.work h2.title.heading {
+  color: #ffffff !important;
+  text-decoration: none !important;
+}
+
+.blurb h4.heading a[rel="author"],
+.blurb h4.heading a[rel="author"]:link,
+.blurb h4.heading a[rel="author"]:visited,
+#workskin h3.byline.heading a,
+.work h3.byline.heading a,
+.byline a[rel="author"] {
+  color: #7ba7d9 !important;
+  text-decoration: none !important;
+}
+
+.blurb h4 a:visited {
+  color: #f3bc70 !important;
+}
+
+/* ============================================
+   PÁGINA DE LECTURA DE CAPÍTULOS EN BLANCO
+   Solo afecta al texto del capítulo (#workskin),
+   el resto del sitio mantiene el tema oscuro.
+   ============================================ */
+
+#workskin {
+  background: #ffffff !important;
+  color: #000000 !important;
+  padding: 1.5em !important;
+  border-radius: 5px;
+}
+
+#workskin * {
+  color: #000000 !important;
+  text-shadow: none !important;
+}
+
+#workskin h1,
+#workskin h2,
+#workskin h3,
+#workskin h4 {
+  color: #000000 !important;
+}
+
+#workskin a {
+  color: #1a4fa0 !important;
+  text-decoration: underline !important;
+}
+
+#workskin a:hover {
+  color: #0d2f66 !important;
+}
+
+#workskin .userstuff {
+  background: #ffffff !important;
+  color: #000000 !important;
+}
+
+#workskin .userstuff p {
+  text-align: justify;
+}
+
+#workskin blockquote {
+  background: #f2f2f2 !important;
+  border-left: 3px solid #999999 !important;
+  color: #000000 !important;
+}
+
+#workskin hr {
+  border-color: #cccccc !important;
+}
+
+.blurb .header .heading,
+.blurb .header ul {
+  margin: 0;
+}
+
+.blurb .header .heading {
+  margin-bottom: 0.3em !important;
+  overflow: visible;
+}
+
+.blurb .datetime {
+  margin-left: 0.5em !important;
+  white-space: nowrap;
+}
+
+.blurb .fandoms {
+  margin: 0.3em 0 !important;
+}
+
+.blurb ul.required-tags {
+  margin-top: 0.6em !important;
+}
+
+@media only screen and (max-width: 767px) {
+  .blurb .header .heading {
+    position: static !important;
+    float: none !important;
+    width: auto !important;
+    overflow: visible !important;
+    margin-bottom: 0.3em !important;
+  }
+
+  .blurb .datetime {
+    position: static !important;
+    float: none !important;
+    display: block !important;
+    margin: 0.2em 0 !important;
+  }
+
+  .blurb ul.required-tags,
+  .blurb ul.required-tags li,
+  .blurb ul.required-tags li a,
+  .blurb ul.required-tags li span {
+    position: static !important;
+    float: none !important;
+    left: auto !important;
+    top: auto !important;
+    width: auto !important;
+    height: auto !important;
+  }
+
+  .blurb ul.required-tags li {
+    display: inline !important;
+  }
+}
+
+/* Reforzar el reseteo de posición para CUALQUIER número de clasificadores, no solo los primeros */
+.blurb ul.required-tags li:nth-child(n) {
+  position: static !important;
+  float: none !important;
+  left: auto !important;
+  top: auto !important;
+}
+
+/* Fecha arriba del título, alineada a la derecha */
+.blurb .header {
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.blurb .datetime {
+  order: 1;
+  float: none !important;
+  position: static !important;
+  text-align: right;
+  margin: 0 0 0.3em 0 !important;
+}
+
+.blurb .header .heading {
+  order: 2;
+  margin-top: 0 !important;
+  margin-bottom: 0.3em !important;
+}
+
+.blurb .fandoms {
+  order: 3;
+}
+
+.blurb ul.required-tags {
+  order: 4;
+}
+
+/* Ocultar el warning dentro de la caja de clasificación: ya se muestra como tag en rojo/verde */
+.blurb ul.required-tags li:has(span.warnings) {
+  display: none !important;
+}
+
+.blurb ul.required-tags {
+  position: initial;
+  top: initial;
+  width: initial;
+  margin: initial;
+}
+
+.blurb ul.required-tags li,
+.blurb ul.required-tags li a,
+.blurb ul.required-tags li span {
+  display: inline-block;
+  width: initial;
+  height: initial;
+  margin-top: initial;
+  margin-bottom: initial;
+  padding-left: initial;
+}
+
+.blurb ul.required-tags li {
+  margin-bottom: initial;
+}
+
+.blurb ul.required-tags li + li + li,
+.blurb ul.required-tags li + li + li + li {
+  position: initial;
+  left: initial;
+  top: initial;
+}
+
+.blurb ul.required-tags li a:focus {
+  overflow: initial;
+}
+
+.blurb ul.required-tags {
+  background: rgba(66, 76, 94, 0.35);
+  border: none;
+  border-radius: 4px;
+  padding: 2px 6px;
+}
+
+.blurb ul.required-tags li + li::before {
+  content: " \00B7 ";
+  color: #6b7688;
+}
+
+.blurb span.text {
+  height: initial;
+  width: initial;
+  font-size: inherit;
+  font-weight: normal !important;
+  color: #8f97a3 !important;
+}
+
+.required-tags .rating-general-audience,
+.required-tags .rating-explicit,
+.required-tags .rating-mature,
+.required-tags .rating-notrated,
+.required-tags .category-none,
+.required-tags .warning-no,
+.required-tags .rating-teen,
+.required-tags .category-femslash,
+.required-tags .category-gen,
+.required-tags .category-slash,
+.required-tags .category-het,
+.required-tags .category-multi,
+.required-tags .category-other,
+.required-tags .complete-no,
+.required-tags .complete-yes,
+.required-tags .warning-yes,
+.required-tags .warning-choosenotto,
+.required-tags .external-work {
+  background: none;
+}
