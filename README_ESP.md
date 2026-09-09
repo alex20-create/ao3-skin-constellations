@@ -26,6 +26,9 @@ Parte del código que sustituye los iconos de clasificación (rating/warnings/ca
 3. Pega el código en el campo CSS.
 4. Guarda y selecciónalo como tu skin activo desde Preferencias.
 
+## Apoyo
+Puedes apoyarme en: [ko-fi/alex_create](https://ko-fi.com/alex_create).
+
 ## Créditos
 
 - Skin base original: constelaciones doradas sobre fondo oscuro (autor original desconocido/no especificado).
