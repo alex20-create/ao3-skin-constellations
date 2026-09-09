@@ -26,6 +26,9 @@ Part of the code that replaces the rating/warnings/category/status icons with re
 3. Paste the code into the CSS field.
 4. Save it and select it as your active skin from Preferences.
 
+## Support
+You can support me at: [ko-fi/alex_create](https://ko-fi.com/alex_create).
+
 ## Credits
 
 - Original base skin: golden constellations on a dark background (original author unspecified).
