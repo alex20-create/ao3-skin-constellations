@@ -37,4 +37,4 @@ You can support me at: [ko-fi/alex_create](https://ko-fi.com/alex_create).
 
 ## License
 
-No specific restrictions — feel free to adapt it, as long as you keep the credits for the reused parts mentioned above.
+MIT for the original work, see `LICENSE`: use it, adapt it, redistribute it, keeping the copyright notice. The classification-icon snippet adapted from [electricalice/Ao3-modular-skins](https://github.com/electricalice/Ao3-modular-skins) is not mine to license and is not covered; keep its credit above if you reuse that part.
